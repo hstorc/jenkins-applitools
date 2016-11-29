@@ -1,0 +1,16 @@
+{
+  "name": "Applitools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eyes.selenium": "0.0.53",
+    "selenium-webdriver": "^3.0.1"
+  }
+}
