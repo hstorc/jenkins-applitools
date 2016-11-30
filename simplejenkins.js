@@ -7,7 +7,7 @@ var driver = new webdriver.Builder()
 var Eyes = require('eyes.selenium').Eyes;
 var eyes = new Eyes();
 // This is your api key, make sure you use it in all your tests.
-eyes.setApiKey('M2tnJnBwTIj29fU977ntBmvm4oYDi9y7I7VHc361IQ108c110');
+eyes.setApiKey('pf991yE4J9106dZ96FlYXzyzk4bOZXq6Nok6yEcKeAEXWU110');
 eyes.setForceFullPageScreenshot(true);
 eyes.setBatch("Taltz Homepage", '7791');
 
