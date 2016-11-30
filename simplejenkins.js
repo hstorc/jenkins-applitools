@@ -9,9 +9,11 @@ var eyes = new Eyes();
 // This is your api key, make sure you use it in all your tests.
 eyes.setApiKey('M2tnJnBwTIj29fU977ntBmvm4oYDi9y7I7VHc361IQ108c110');
 eyes.setForceFullPageScreenshot(true);
+eyes.setBatch("Taltz Homepage", '7791');
+
 // Start visual testing with browser viewport set to 1024x768.
 // Make sure to use the driver returned through 'then' from this point on.
-eyes.open(driver, 'Applitools', 'taltz'/*a little annoying */)
+eyes.open(driver, 'Applitools', 'Taltz Homepage'/*a little annoying */)
     .then(function(driver) {
         driver.get('https://www.taltz.com/index.html');
 
