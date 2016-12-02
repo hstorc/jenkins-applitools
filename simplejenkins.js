@@ -1,5 +1,6 @@
+console.log('starting to test>>1');
 var webdriver = require('selenium-webdriver');
-
+console.log('starting to test>>2');
 var driver = new webdriver.Builder()
     .withCapabilities(webdriver.Capabilities.chrome())
     .build();
